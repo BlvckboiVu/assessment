@@ -1,0 +1,64 @@
+:root{
+    --bg-color: #3498db;
+    --secondary-color: #2ecc71;
+    --font-family: 'Arial, sans-serif';
+    --base-font-size: 16px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-color);
+    border-radius: 30px;
+}
+body{
+    padding: 20px;
+    background-color: var(--bg-color);
+}
+nav a{
+   text-decoration: none;
+}
+
+h2{
+    text-align: center;
+}
+.card{
+    display: block;
+}
+.flex{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.questions{
+    text-align: center;
+}
+form{
+    display: grid;
+    background-color: var(--secondary-color);
+    border-radius: 15px;
+    border: 20cm;
+}
+input{
+    border-radius: 15px;
+    text-align: center;
+    
+}
+button{
+    color: var(--secondary-color);
+    background-color: var(--bg-color);
+    border: none;
+
+}
+button:hover{
+    scale: 1.1;
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+    color: var(--bg-color);
+}

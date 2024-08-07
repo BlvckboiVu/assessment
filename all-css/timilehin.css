@@ -1,0 +1,131 @@
+body{
+	margin:0px;
+	background-color: white;
+}
+.navigator{
+	background-color: white;
+	width:100%;
+	height:70px;
+	display: inline-block;
+	margin-bottom:none;
+	
+	
+}
+.logo{
+	width:125px;
+	height:50px;
+	padding: 10px;
+}
+/*p{
+	display: inline-block;
+}*/
+.top{
+	background-color: #DAF1F1;
+	width:100%;
+	height:500px;
+	margin-bottom: 20px;
+}
+.background{
+	width: 100%;
+	height: 500px;
+	/*margin-left: 800px;
+	padding-bottom: 170px;
+	padding-top: 70px;*/
+	/*padding: 250px;*/
+}
+.middle{
+	background-color: none;
+	width:100%;
+	height:430px;
+	margin-bottom: 0px;
+}
+.bottom{
+	background-color: #0b2258;
+	width:100%;
+	height:260px;   
+}
+
+#contact{
+	text-align: right;
+	padding-top: 10px;
+	padding-right:0px;
+	margin-left: 10px;
+	margin-right: 20px;
+	color: black;
+	font-size: 14px;
+}
+#portfolio{
+	text-align: right;
+	padding-top: 10px;
+	padding-right:10px;
+	margin-left: 10px;
+	margin-right: 15px;
+	color: black; 
+	font-size: 14px;
+}
+#index{
+	text-align: right;
+	padding-top: 10px;
+	padding-right:10px;
+	margin-left: 40px;
+	margin-right: 25px;
+	color: black;
+	font-size: 14px;	
+}
+#about{
+	text-align: right;
+	padding-top: 10px;
+	padding-right:10px;
+	color: black;
+	margin-left: 10px;
+	margin-right: 15px;
+	font-size: 14px;
+}
+.line{
+	width:3px;
+	height:50px;
+	padding: 10px;
+	background-color: orange;
+}
+/*#cee{
+	padding: 300px;
+}*/
+#about1, #abt, #ct{ 
+	padding-top: 30px;
+	text-align: center;
+	color: #65C9F1;
+	margin-top: 30px;
+	background-color: none;
+	font-family: candara;
+}
+#h, #a2,#p,#c{
+	color: white;
+	font-family: dubai;
+	line-height: 100%;
+	text-decoration: none;
+	
+}
+
+#text{
+	
+	padding-top: 200px;
+	color: black;
+	margin-left: 50px;
+	margin-top: 70px;
+}
+#text1{
+	
+	padding-bottom: 0px;
+	color: black;
+	margin-left: 50px;
+	margin-bottom: 0px;
+}
+#about3{
+	width: 90px;
+	height: 30px;
+	padding: 20px;
+	color: black;
+	margin-left: 50px;
+	margin-bottom: 0px;
+	background-color:blue;
+}

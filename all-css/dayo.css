@@ -1,0 +1,115 @@
+:root {
+    --bg-color: #3498db;
+    --secondary-color: #2ecc71;
+    --font-family: 'Arial, sans-serif';
+    --base-font-size: 16px;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--base-font-size);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: var(--bg-color);
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.project {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: square;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 0.5rem;
+}
+
+form input, form textarea, form button {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: var(--bg-color);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    form input, form textarea, form button {
+        font-size: 1rem;
+    }
+}
+
+/* Hover Effects */
+nav ul li a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+    color: white;
+    cursor: pointer;
+}

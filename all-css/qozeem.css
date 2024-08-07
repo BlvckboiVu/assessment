@@ -1,0 +1,234 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ body{
+    color: white;
+ }
+
+ .heard {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+ }
+ .logo {
+    position: relative;
+    font-size: 25px;
+    color: goldenrod;
+    text-decoration: none;
+    font-weight: 600;
+    right: 10%;
+ }
+
+ .navbar a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+ }
+ .navbar a:hover {
+    color: red;
+ }
+
+ .home {
+    height: 100vh;
+    background: url(white\ and\ black.avif) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 1;
+ }
+
+ .home-content {
+    max-width: 600px;
+ }
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: black;
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: red;
+}
+.home-content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.home-content .btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
+
+.btn-box a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: none;
+    border: 2px solid goldenrod;
+    border-radius: 8px;
+    font-size: 19px;
+    color: goldenrod;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.btn-box a:nth-child(2) {
+    background: transparent;
+    color: goldenrod;
+}
+
+.btn-box a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: red;
+    z-index: -1;
+    transition: .5s;
+}
+.btn-box a:hover::before {
+    width: 100%;
+}
+
+.service-sci {
+    position: absolute;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border-bottom: 50%;
+}
+
+.service-sci a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 90px;
+    background: transparent;
+    border: 4px solid white;
+    border-radius: 40%;
+    font-size: 30px;
+    color: blanchedalmond;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    border-bottom: 40%;
+}
+
+.service-sci a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 12%;
+    height: 100%;
+    background: red;
+    z-index: -1;
+    transition: .5s;
+}
+
+.service-sci a:hover:before {
+    width: 400%;
+}
+
+.home-imgHover img {
+    position: absolute;
+    top: 100px;
+    right: 70px;
+    width: 700px;
+    height: 600px;
+    background: transparent;
+    border: 2px solid;
+    border-radius: 100%;
+    transition: 3s;
+}
+
+.home-imgHover img:hover {
+    background: white;
+}
+
+/* KEYFRAME ANIMATION */ 
+@keyframes showRight {
+    100%{
+        width: 0;
+    }
+}
+
+.about-content {
+    background: hsl(0, 2%, 65%);
+    height: 100vh;
+    width: auto;
+    background-size: 1000vh;
+    background-position: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.about-img img {
+    top: 100px;
+    right: 70px;
+    width: 700px;
+    height: 600px;
+    border: 2px steelblue;
+    shape-image-threshold: unset;
+}
+
+.service-content {
+    background: rgb(79, 79, 83);
+    height: 100vh;
+    width: auto;
+    background-size: 1000vh;
+    background-position: center;
+    align-items: center;
+    text-align: center;
+    /*display: flex;*/
+    border-bottom: 0;
+    letter-spacing: 3px;
+    align-content: center;
+    margin-bottom: 10px;
+}
+
+.service-content h5{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    padding-top: 10%;
+} 
+
+
+
+

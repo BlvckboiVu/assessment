@@ -1,0 +1,186 @@
+/* Root Selector and Variables */
+:root {
+    --bg-color: #3498db;
+    --secondary-color: #2ecc71;
+    --font-family: 'Arial, sans-serif';
+    --base-font-size: 16px;
+    --heading-color: #ffffff;
+    --text-color: #333333;
+    --link-color: #ffffff;
+    --link-hover-color: #ffcc00;
+}
+
+/* Basic Styling and Layout */
+body {
+    font-family: var(--font-family);
+    font-size: var(--base-font-size);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: var(--text-color);
+}
+
+header, footer {
+    background-color: var(--bg-color);
+    color: var(--heading-color);
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1, h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p, ul, li {
+    font-size: 1rem;
+    margin: 0.5em 0;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--link-hover-color);
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a:hover {
+    color: var(--link-hover-color);
+}
+
+/* Main Content */
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+/* Projects Section */
+#projects div {
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+#projects h3 {
+    margin-top: 0;
+}
+
+#projects a {
+    display: inline-block;
+    margin-top: 0.5em;
+    padding: 0.5em 1em;
+    background-color: var(--secondary-color);
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+#projects a:hover {
+    background-color: #27ae60;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5em;
+}
+
+input, textarea, button {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: var(--bg-color);
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 0.5em 0;
+    }
+
+    header, footer {
+        text-align: left;
+        padding: 1em;
+    }
+
+    main {
+        padding: 1em;
+    }
+}
+
+/* Visual Enhancements */
+header {
+    background-image: url('header-bg.jpg'); /* Add a suitable background image */
+    background-size: cover;
+    background-position: center;
+    color: var(--heading-color);
+}
+
+section#theory div {
+    text-align: center;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #333333;
+    color: #f4f4f4;
+}
+
+body.dark-mode header, body.dark-mode footer {
+    background-color: #222222;
+}
+
+body.dark-mode a {
+    color: var(--link-color);
+}
+
+body.dark-mode a:hover {
+    color: var(--link-hover-color);
+}
+
+body.dark-mode input, body.dark-mode textarea, body.dark-mode button {
+    background-color: #444444;
+    color: #f4f4f4;
+}
+
+body.dark-mode button:hover {
+    background-color: #555555;
+}

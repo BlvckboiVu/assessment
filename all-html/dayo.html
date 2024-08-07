@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Adekunle Adedayo Philip</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#theory">Theory</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm Adekunle Adedayo Philip, an IT student with a passion for creating dynamic and responsive websites. I started my journey in web development two months ago, and since then, I've worked on several exciting projects...</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Weather App</h3>
+                <p>A weather forecasting app built using React and OpenWeather API. It shows real-time weather data for any city.</p>
+                <a href="#">View more</a>
+            </div>
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>My personal portfolio website showcasing my skills and projects. Built with HTML, CSS, and JavaScript.</p>
+                <a href="#">View more</a>
+            </div>
+            <div class="project">
+                <h3>Task Manager</h3>
+                <p>A task management tool to help organize daily tasks. Developed using Node.js and MongoDB.</p>
+                <a href="#">View more</a>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        
+        <section id="theory">
+            <h2>Theory</h2>
+            <div style="text-align: center;">
+                <p>
+                    <strong>1. How does the CSS Box Model work?</strong><br>
+                    The CSS Box Model is a fundamental concept that describes the structure of elements on a web page. Each element is represented as a rectangular box consisting of four parts:
+                    <ul>
+                        <li><em>Content:</em> The actual content of the element (text, images, etc.).</li>
+                        <li><em>Padding:</em> The space between the content and the border. It increases the space around the content inside the border.</li>
+                        <li><em>Border:</em> The line surrounding the padding and content.</li>
+                        <li><em>Margin:</em> The space outside the border, creating distance between the element and other elements.</li>
+                    </ul>
+
+                    <strong>2. What is the difference between “Class” and “Id” in HTML?</strong><br>
+                    <em>Class:</em> Used to apply styles to multiple elements. Defined with a dot (.) and can be used multiple times on a page.
+                    <pre><code>&lt;div class="example"&gt;&lt;/div&gt;</code></pre>
+                    <em>Id:</em> Used to apply styles to a single unique element. Defined with a hash (#) and must be unique within a page.
+                    <pre><code>&lt;div id="unique"&gt;&lt;/div&gt;</code></pre>
+
+                    <strong>3. What is a Media Query?</strong><br>
+                    A Media Query is a CSS technique used to apply styles based on the conditions of the device, such as screen size, resolution, orientation, etc. It allows for responsive design by adapting the layout to different devices.
+                    <pre><code>@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}</code></pre>
+
+                    <strong>4. What is the difference between Margin, Padding, and Gap?</strong><br>
+                    <ul>
+                        <li><em>Margin:</em> The space outside the element's border, separating it from other elements.</li>
+                        <li><em>Padding:</em> The space inside the element's border, around the content.</li>
+                        <li><em>Gap:</em> Used in CSS Grid and Flexbox to define the space between rows and columns within a container.</li>
+                    </ul>
+
+                    <strong>5. What is a CSS Selector? What are the categories and types?</strong><br>
+                    A CSS Selector is a pattern used to select and style HTML elements. Categories and types include:
+                    <ul>
+                        <li><em>Simple Selectors:</em> Select elements based on name, id, class, etc.
+                            <ul>
+                                <li>* (Universal)</li>
+                                <li>element (Type)</li>
+                                <li>.class (Class)</li>
+                                <li>#id (ID)</li>
+                                <li>[attribute] (Attribute)</li>
+                            </ul>
+                        </li>
+                        <li><em>Combinator Selectors:</em> Select elements based on the relationship between them.
+                            <ul>
+                                <li>ancestor descendant (Descendant)</li>
+                                <li>parent > child (Child)</li>
+                                <li>previous + next (Adjacent Sibling)</li>
+                                <li>previous ~ siblings (General Sibling)</li>
+                            </ul>
+                        </li>
+                        <li><em>Pseudo-class Selectors:</em> Select elements based on their state.
+                            <ul>
+                                <li>:hover, :first-child, etc.</li>
+                            </ul>
+                        </li>
+                        <li><em>Pseudo-element Selectors:</em> Select and style parts of an element.
+                            <ul>
+                                <li>::before, ::after, etc.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Connect with me on social media: 
+            <a href="#">LinkedIn</a> | 
+            <a href="#">GitHub</a> | 
+            <a href="#">Twitter</a>
+        </p>
+    </footer>
+</body>
+</html>

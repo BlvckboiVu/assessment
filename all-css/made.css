@@ -1,0 +1,108 @@
+:root{
+    --bgcolor: #3498db;
+    --secondarycolor:#2ecc71;
+    --font-family:'Arial, sans-serif';
+    --base-font-size:16px;
+}
+
+nav{
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    padding: 30px;
+    margin-top: 25px;
+    justify-content: space-around;  
+}
+h2{
+    text-align: center;
+
+}
+button{
+    align-items: center;
+    padding: 8px;
+    background-color: rgb(118, 118, 240);
+    border-radius: 10px;
+
+}
+main{
+    margin: 0 auto;
+ 
+}
+body{
+    background-color:(white);
+    border-radius: none;
+    color: black;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+    margin: 0;
+    font-size: medium;
+    line-height: 2rem;
+
+}
+
+a{
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+
+}
+.grid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 2, 1fr;
+}
+section{
+    padding: 70px 50px;
+}
+.paragraph{
+    text-align: center;
+}
+.projects{
+    background-color: var(--bgcolor);
+    align-items: center;
+    display: grid;
+   
+    padding: 45px;
+    border: 1px solid whitesmoke;
+}
+.contact{
+    gap: 20px;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    background-color: #3498db;
+}
+.form{
+    gap: 20px;
+    padding-bottom: 2rem;
+    border-radius: 4px;
+    width: 300px;
+    margin-left: 40%;
+
+}
+button:hover{
+    background-color: var(--bgcolor);
+    color: black;
+    transform: rotate(30deg);
+    
+
+}
+.skills{
+    align-items: center;
+    display: inline;
+    line-height: 3;
+}
+.about{
+    
+    background-position: no-repeat;
+    background-size: cover;
+
+}
+.footer{
+    background-color: var(--bgcolor);
+    display: grid;
+}

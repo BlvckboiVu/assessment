@@ -1,0 +1,174 @@
+.logo2{
+	width:125px;
+	height:50px;
+	padding: 10px;
+	margin-top: 180px;
+	margin-left: 20px;
+}
+.log3{
+	width:250px;
+	height:20px;
+	padding: 10px;
+	margin-top: 180px;
+	margin-left: 20px;
+	background-color:white;
+}
+.mva{
+	width: 700px;
+	height: 270px;
+	background-color: none;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right:10px;
+	
+}
+#st{
+	float: left;
+	width: 200px;
+	height: 240px;
+	background-color: white;
+	border-radius: 20px;
+	border: none;
+	box-shadow: 8px 8px 5px
+	#dfdfdf;
+}
+#nd{
+	float: left;
+	width: 200px;
+	height: 240px;
+	background-color: white;
+	border-radius: 20px;
+	border: none;
+	margin-left: 35px;
+	box-shadow: 8px 8px 5px
+	#dfdfdf;
+}
+#rd{
+	float: right;
+	width: 200px;
+	height: 240px;
+	background-color: white;
+	border-radius: 20px;
+	border: none;
+	box-shadow: 8px 8px 5px
+	#dfdfdf;
+}
+h2{
+	color: #65C9F1;
+	font-family: candara;
+}
+#m{
+	font-family: candara;
+	margin: 10px;
+}
+#a{
+	font-family: candara;
+	margin: 10px;
+	color: black;
+}
+#v{
+	font-family: candara;
+	margin: 10px;
+}
+#v1{
+	padding-top: 20px;
+}
+#m1{
+	padding-top: 20px;
+}
+#a1{
+	padding-top: 20px;
+}
+hr{
+	background-color:;
+	border-style: none;
+	border-top-style: dotted;
+	border-color: grey;
+	border-width: 7px;
+	width: 4%;
+}
+.abp{
+	width: 120px;
+	height: 160px;
+	padding-left: 230px;
+	padding-top: 38px;
+}
+.abp2{
+	font-family: candara;
+	font-size: 21px;
+	padding-right: 230px;
+	padding-top: 38px;
+}
+#links{
+	background-color: ;
+	height: 190px;
+	width: 85px;
+	text-align: justify;
+	float: right;
+	line-height: 0.3;
+	font-family: candara;
+	color: white;	
+}
+#social{
+	background-color: ;
+	height: 200px;
+	width: 130px;
+	text-align: justify;
+	float: left;
+	line-height: 0.3;
+	margin-left: 0px;
+	font-family: candara;
+	color: white;	
+}
+
+#cont{
+	width: 1095px;
+	height: 200px;
+	background-color: ;
+	padding: 20px;
+	
+}
+.social{
+	border-radius: 50%;
+	height:30px;
+	width: 30px;
+}
+#contact_field{
+	width: 500px;
+	height: 250px;
+	background-color: white;
+	border-radius: 35px;
+	box-shadow: 8px 8px 5px
+	#dfdfdf;
+	margin-bottom: 40px;
+}
+.pt{
+	width: 230px;
+	height: 190px;
+	padding-left: 4px;
+	padding-top: 3px;
+	border-radius: 10px 0 10px 0;
+	/*box-shadow: 8px 8px 5px
+	#dfdfdf;*/
+}
+#bottom1{
+	background-color: gren;
+	height: 200px;
+	width: 400px;
+	
+}
+#bottom2{
+	background-color: yellow;
+	height: 200px;
+	width: 400px;
+	margin-left: 450px;
+	
+}
+#bottom3{
+	background-color: ;
+	height: 200px;
+	width: 150px;
+	margin-left: 450px;
+	text-align: justify;
+	
+}

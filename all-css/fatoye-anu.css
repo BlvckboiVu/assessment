@@ -1,0 +1,47 @@
+:root{
+    --bg-color: #3498db;
+    --secondary-color: #2ecc71;
+    --font-family: 'Arial, sans-serif';
+    --base-font-size: 16px
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+    margin: 10px;
+    align-items: center;
+}
+body{
+    background-color: rgb(231, 26, 67);
+    box-sizing: border-box;
+    flex-direction: column;
+
+}
+button{
+    border-radius: 10px;
+    color: cornflowerblue;
+    align-items: center;
+    
+}
+footer{
+    display: flex;
+}
+form{
+    color: crimson;
+}
+a{
+    color: burlywood;
+    margin: 0px 10px;
+}
+h2{
+    color: wheat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.Main-theory{
+    align-content: center;
+}
+hover{
+    background-color: blue;
+    scale: 1.05;
+}

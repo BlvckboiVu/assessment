@@ -1,0 +1,61 @@
+:root{
+    --bgcolor:#3498db;
+    --secondarycolor:#2ecc71;
+    --font-family:'Arial, sans-serif';
+    --base-font-size:16px;
+}
+body{
+    background-color: var(--bgcolor);
+    padding: 20px;
+    color: #ffff;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.flex{
+    text-align: center;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+}
+.aboutme{
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    display: block;
+}
+h2{
+    text-align: center;
+}
+.text{
+    align-items: center;
+}
+.projects{
+    align-items: center;
+}
+.project-flex{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+.skills{
+    display: flex;
+}
+
+.question{
+    text-align: center;
+}
+
+    

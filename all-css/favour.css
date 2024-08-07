@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background: url('space.jpg');
+    color: white;
+}
+
+nav {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.Contact {
+    justify-content: center;
+    text-align: center;
+    background-color: green;
+}
